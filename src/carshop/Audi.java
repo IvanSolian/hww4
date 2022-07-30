@@ -1,6 +1,7 @@
 package carshop;
 
-public class Audi extends Cars {
+public class Audi extends Cars
+{
     @Override
     public void fuel() {
         System.out.println("Disiel");
@@ -17,4 +18,5 @@ public class Audi extends Cars {
         System.out.println("200 horse/power");
 
     }
+
 }

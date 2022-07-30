@@ -1,21 +1,21 @@
 package carshop;
 
-public class BMW extends Cars {
+public class Ford extends Cars{
     @Override
     public void fuel() {
         System.out.println("Gas");
-
     }
 
     @Override
     public void size() {
-        System.out.println("SUV");
+        System.out.println("hatchback");
 
     }
 
     @Override
     public void power() {
-        System.out.println("230 horse/power");
+        System.out.println("110 horse/power");
 
     }
+
 }
